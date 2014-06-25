@@ -2,10 +2,10 @@
 
 
 
-References used: 
-    -http://www.fourmilab.ch/webtools/midicsv/
-    -https://github.com/SIGMusic/osc-example
-###What you will need:
+##References used: 
+- http://www.fourmilab.ch/webtools/midicsv/
+- https://github.com/SIGMusic/osc-example
+###What you will need (from https://github.com/SIGMusic/osc-example):
 
   - PureData Extended
   - Python - http://www.python.org/getit/

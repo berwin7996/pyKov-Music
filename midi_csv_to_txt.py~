@@ -1,0 +1,16 @@
+import csv
+import sys
+import os
+
+path = 'midi_csv_files/'
+def main():	
+	f_out = open('note_files/output.txt', 'wb') 
+	for filename in os.listdir(path):
+		f_in = csv.reader(open(filename, 'r'))
+		for line in f_in:
+			if ' Note_on_c' in line:
+				f_out.write(line[4].strip() + ' ')
+		print 'processed: ' + filename
+
+if __name__ == '__main__':
+	main()
